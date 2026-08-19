@@ -60,6 +60,7 @@ int modInv(int a, int m) {
     t = x0; x0 = x1 - q * x0; x1 = t;
   }
   return x1 < 0 ? x1 + m0 : x1;
+} x1 < 0 ? x1 + m0 : x1;
 }
 
 int main() {
@@ -78,7 +79,7 @@ int main() {
 ```
 
 ## Output:
-
+<img width="1586" height="631" alt="Screenshot 2026-08-19 103907" src="https://github.com/user-attachments/assets/c5618ab6-19bc-4e86-8dc6-17d96d27a6e6" />
 
 ## Result:
  The program is executed successfully.
